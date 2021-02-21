@@ -1,0 +1,91 @@
+﻿
+.topHeader{
+    background: #FF75D8;
+    height: auto;
+    width: 100%;
+    margin-bottom: -25px;
+    margin-top: -10px;
+}
+
+header img {
+    padding-top: 20px;
+    width: 5%;
+    height: auto;
+}
+
+header h1 {
+    margin-top: -5px;
+    padding-bottom: 20px;
+    font-family: 'Cute Font';
+    letter-spacing: 4px;
+    font-size: 30px;
+    color: #000000px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Calligraffitti';
+    font-size: 45px;
+    letter-spacing: 4px;
+    color: #cc0052;
+}
+
+.mainText p {
+    font-family: Chathura;
+    font-size: 40px;
+    line-height: 28.5px;
+    letter-spacing: 2px;
+}
+
+.mainHeading {
+    background-image: url("Images/cat_pink_couch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+}
+
+.mainText {
+    padding-top: 70px;
+    width: 30%;
+    text-align: right;
+    position: relative;
+}
+
+button {
+   padding: 0px 16px;
+   background: #F8EA8C;
+   border: none;
+   margin-top: 20px;
+   font-size: 30px;
+   font-weight: 700;
+   color: #cc0052;
+   letter-spacing: 3px;
+   font-family: Chathura;
+   border-radius: 20px;
+}
+
+button:hover {
+    background: #F8D210;
+    transition-duration: .2s;
+}
+
+footer {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background: #00AEAE;
+    margin-bottom: -25px;
+    font-family: 'Cute Font';
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+footer a {
+    font-weight: bold;
+    color: #F8D210;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #F8EA8C;
+    transition-duration: .2s;
+}
