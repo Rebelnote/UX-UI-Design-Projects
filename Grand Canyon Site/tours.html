@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Grand Trails</title>
+    <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="Style/Grand_Styles.css">
+    <script>
+        function play(){
+            var audio = document.getElementById("sound");
+            audio.play();
+            }
+    </script>
+</head>
+<body>
+<header>
+    <div class="banner">
+        <div id="slide-in-blurred-top" class="container">
+            <div class="Image">
+                <audio id="sound"><source src="Style/AutumnSunset.mp3" type="audio/mp3"></audio>
+                <img onclick ="play()" src="Style/Images/logo.png" />
+            </div>
+            <div class="Text">
+                <h1>GRAND TRAILS</h1>
+            </div>
+        </div>
+        <div class="nav">
+             <button id="slide-in-blurred-left" class="left"><a href="tours.html">TRAILS</a></button>
+            <button id="slide-in-blurred-right" class="right"><a href="prices.html">PRICES</a></button>
+        </div>
+    </div>
+</header>
+    <section>
+        <div>
+            <img id="slide-in-blurred-left" src="Style/Images/Trails.jpg"/>
+        </div>
+        <div id="slide-in-blurred-right" class="box">
+            <center><h2>Trails</h2></center>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            </ul>
+        </div>
+    </section>
+</body>
+
+<footer>
+    <div class="footer_box">
+        <div class="contact">
+            <center>
+            <h3>Contact</h3>
+            <p>1-800 123-1234</p>
+            <p>123 Lerux St. Flagstaff AZ, 86004</p>
+            </center>
+        </div>
+        <div class="copy">
+            <p>Copyright &#169; pdxui.com</p>
+        </div>
+        <div class="socials">
+            <img src="Style/Images/Instagram.png"/>
+            <img src="Style/Images/Twitter.png"/>
+            <img src="Style/Images/Facebook.png"/>
+            <img src="Style/Images/YouTube.png"/>
+        </div>
+    </div>
+</footer>
+</html>
