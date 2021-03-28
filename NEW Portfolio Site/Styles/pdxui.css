@@ -1,0 +1,120 @@
+﻿/* This removes whitespace border */
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ca0995;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  height: auto;
+}
+
+header {
+    box-sizing: border-box;
+    padding-bottom: 100px;
+}
+
+header img {
+    margin-top: 35px;
+}
+
+header h1 {}
+
+h1, h2, h3 {
+    font-family: Roboto;
+    color: #ffffff;
+    line-height: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 6rem;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+p {
+    font-family: Montserrat;
+}
+
+header h1 {
+    font-size: 8rem;
+    padding-top: 30px;
+}
+
+.hello {
+    background-image: url("Images/portfolio_background.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    --contentWidth: 50%;
+}
+
+.welcome {
+    max-width: var(--contentWidth);
+
+}
+
+div.welcome {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    padding: 75px 50px 100px 50px;
+    
+}
+
+div.welcome p {
+    color: white;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+.showcase1, .showcase2, .showcase3, .showcase4 {
+    float:left;
+    width: 50%;
+    padding: 100px 0 100px 0;
+    position: relative;
+}
+
+div.showcase h3 {
+    text-align: center;
+}
+
+.showcase1 {
+    background-color: #00d8a8;
+}
+
+.showcase2 {
+    background-color: #093ef8;
+}
+
+.showcase3 {
+    background-color: #7938a2;
+}
+
+.showcase4 {
+    background-color: #f8c309;
+}
+
+div.about {
+    clear: left;
+    overflow: auto;
+    padding-top: 50px;
+}
+
+div.about h2 {
+    text-align: center;
+}
+
+
